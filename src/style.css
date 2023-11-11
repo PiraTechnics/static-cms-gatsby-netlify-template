@@ -1,3 +1,8 @@
+/* Tailwind Directive */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* CSS Custom Properties Definitions */
 
 :root {

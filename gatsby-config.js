@@ -9,18 +9,19 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Gatsby Static CMS Tailwind Starter`,
     author: {
-      name: `Static CMS`,
-      summary: `. A Git-based CMS for Static Site Generators`,
+      name: `Devin Younge`,
+      summary: `Starter Blog Site built with Gatsby, Static CMS, and TailwindCSS`,
     },
-    description: `A Git-based CMS for Static Site Generators`,
-    siteUrl: `https://gatsby.staticcms.org/`,
+    description: `[Insert whatever you want here]`,
+    siteUrl: `https://devinyounge.com/`,
     social: {
-      twitter: `StaticJsCMS`,
+      twitter: `PiraTechnics`,
     },
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-image`,
     `gatsby-plugin-static-cms`,
     {
